@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "pca10056/blank/armgcc/_build/nrf52840_xxaa.out",
+            "name": "Cortex Debug",
+            "device": "nrf52",
+            "interface": "swd"
+        }
+    ]
+}
