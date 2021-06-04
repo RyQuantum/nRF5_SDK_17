@@ -1,0 +1,48 @@
+{
+    "env": {
+        "nrfSDK": "C:\\Users\\Ryan\\Projects\\nRF5_SDK_17.0.2_d674dde"
+    },
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${nrfSDK}/components/**",
+                "${nrfSDK}/components",
+                "${nrfSDK}/components/libraries/experimental_memobj",
+                "${nrfSDK}/components/libraries/experimental_section_vars",
+                "${nrfSDK}/modules/nrfx/mdk",
+                "${nrfSDK}/modules/nrfx/hal",
+                "${nrfSDK}/components/libraries/balloc",
+                "${nrfSDK}/components/libraries/experimental_log",
+                "${nrfSDK}/components/libraries/experimental_log/src",
+                "${nrfSDK}/components/libraries/delay",
+                "${nrfSDK}/integration/nrfx",
+                "${nrfSDK}/components/libraries/bsp",
+                "${nrfSDK}/components/drivers_nrf/nrf_soc_nosd",
+                "${nrfSDK}/components/libraries/strerror",
+                "${nrfSDK}/components/boards",
+                "${nrfSDK}/components/toolchain/cmsis/include",
+                "${nrfSDK}/modules/nrfx",
+                "${nrfSDK}/components/libraries/util",
+                "${nrfSDK}/components/libraries/fifo",
+                "${nrfSDK}/components/libraries/uart",
+                "${nrfSDK}/integration/nrfx/legacy",
+                "${nrfSDK}/components/libraries/delay",
+                "${nrfSDK}/modules/nrfx/drivers/include",
+                "${workspaceFolder}/pca10056/blank/config",
+                "${workspaceFolder}/pca10056/blank"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

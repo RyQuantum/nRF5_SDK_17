@@ -1,0 +1,12 @@
+{
+    "cortex-debug.armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/",
+    "cortex-debug.armToolchainPrefix": "arm-none-eabi",
+    "cortex-debug.JLinkGDBServerPath": "C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServer.exe",
+    "files.associations": {
+        "boards.h": "c",
+        "d52_starterkit.h": "c",
+        "n5_starterkit.h": "c",
+        "pca10059.h": "c",
+        "wt51822.h": "c"
+    }
+}
