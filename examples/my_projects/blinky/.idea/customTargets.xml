@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="2a306ecf-44c6-45fb-b59a-6f2c9ee87f88" name="test" defaultType="TOOL">
+      <configuration id="7d4f97c2-9d54-428e-a193-09b3e7cd3f11" name="test" toolchainName="arm-none-eabi" />
+    </target>
+  </component>
+</project>
