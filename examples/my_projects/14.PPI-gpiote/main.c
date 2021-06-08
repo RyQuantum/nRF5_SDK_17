@@ -26,9 +26,11 @@ static void gpiote_pins_init(void)
     err_code = nrf_drv_gpiote_init();
     APP_ERROR_CHECK(err_code);
 
+    // create the configurations for input pin interrupt
     nrf_drv_gpiote_in_config_t in_config = GPIOTE_CONFIG_IN_SENSE_HITOLO(true);
     in_config.pull = NRF_GPIO_PIN_PULLUP;
 
+    // initialize the interrupt pin
     err_code = nrf_drv_gpiote_in_init(Btn_Pin1, &in_config, interrupt_pin_handler);
     APP_ERROR_CHECK(err_code);
 
