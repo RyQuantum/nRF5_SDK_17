@@ -40,7 +40,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="53" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="2" path="../../../main.c" selected="1" top="49" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="26" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="10" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="gpiote_pca10056" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
