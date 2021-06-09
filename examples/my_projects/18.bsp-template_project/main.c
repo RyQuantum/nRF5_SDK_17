@@ -1,11 +1,10 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "nrf.h"
-#include "nordic_common.h"
 #include "boards.h"
 #include "bsp.h"
 #include "app_timer.h"
+#include "nordic_common.h"
 #include "nrf_error.h"
 #include "nrf_drv_clock.h"
 
@@ -38,13 +37,13 @@ void bsp_event_handler(bsp_event_t evt)
             break;
 
         case BSP_EVENT_KEY_2:
-            err_code =bsp_indication_set(BSP_INDICATE_FATAL_ERROR);
+            err_code = bsp_indication_set(BSP_INDICATE_FATAL_ERROR);
             APP_ERROR_CHECK(err_code);
             NRF_LOG_INFO("BSP_INDICATE_FATAL_ERROR");
             break;
 
         case BSP_EVENT_KEY_3:
-            err_code =bsp_indication_set(BSP_INDICATE_IDLE);
+            err_code = bsp_indication_set(BSP_INDICATE_IDLE);
             APP_ERROR_CHECK(err_code);
             NRF_LOG_INFO("BSP_INDICATE_IDLE");
             break;
@@ -69,6 +68,8 @@ int main(void)
 
     APP_ERROR_CHECK(NRF_LOG_INIT(NULL));
     NRF_LOG_DEFAULT_BACKENDS_INIT();
+
+    bsp_configure();
 
     NRF_LOG_INFO("Application code started!!!");
 
