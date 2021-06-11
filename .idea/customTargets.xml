@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="6c25a0fe-3d79-48b8-881b-602c8154d1ae" name="output" defaultType="TOOL">
+      <configuration id="cf6bd00a-11a5-4449-9990-e82cf09dc0e8" name="output">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_hex" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_hex" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="hex" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Ryan\Projects\nRF5_SDK_17.0.2\examples\my_projects\4.-blinky\pca10056\blank\armgcc\_build\nrf52840_xxaa.out" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Projects/nRF5_SDK_17.0.2/examples/my_projects/4.-blinky/pca10056/blank/armgcc/_build" />
+    </exec>
+  </tool>
+</toolSet>
