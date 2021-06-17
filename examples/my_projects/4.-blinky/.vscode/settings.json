@@ -7,6 +7,8 @@
         "d52_starterkit.h": "c",
         "n5_starterkit.h": "c",
         "pca10059.h": "c",
-        "wt51822.h": "c"
+        "wt51822.h": "c",
+        "nrf_delay.h": "c",
+        "nrfx.h": "c"
     }
 }
