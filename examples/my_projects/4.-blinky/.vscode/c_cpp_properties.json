@@ -1,6 +1,6 @@
 {
     "env": {
-        "nrfSDK": "C:\\Users\\Ryan\\Projects\\nRF5_SDK_17.0.2_d674dde"
+        "nrfSDK": "C:\\Users\\Ryan\\Projects\\nRF5_SDK_17.0.2"
     },
     "configurations": [
         {
@@ -38,7 +38,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\ProgramData\\chocolatey\\lib\\mingw\\tools\\install\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64"
